@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caeser Encryption</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="thb.png">
+
+
+</head>
+<!--
+  Ich habe in meinem Projekt möglichst sichergestellt, dass es nicht möglich ist ein Fehler zu verursachen. 
+  Wer dennoch versuchen möchte einen Fehler zu provozieren ist gerne eingeladen es auf eigener Verantwortung auszuprobieren. 
+-->
+<body>
+<div class="navigation">
+   <ul>
+    <li><a class="navbar" href="">Caeser</a></li>
+    <li><a class="navbar" href="pwGenerator.html">Generator</a></li>
+    <li><a class="navbar" href="info.html">About</a></li>
+  </ul>
+</div>
+ <div class="main_body">
+    <form class="formfield" action="../cgi-bin/caeser.cgi" method="post">
+        <div class="formfield">
+          <br>
+        
+          <div class="inputBox">
+            <input type="text" id="text" name="text" required="required">
+            <span>Texteingabe</span>
+          </div>
+          <br>
+          <div class="inputBox">
+            <input type="number" id="shift" name="shift" required="required">
+            <span>Shift</span>
+          </div>
+          <br>
+          <div class="blank">
+            <span>LEERZEICHEN IGNORIEREN?</span>
+            <input class="checkBox" type="checkbox" name="blank" value="1">
+           
+          </div>
+          <br>
+          <div class="submitBox">
+            <input class="submit" type="submit" value="Verschlüsselung starten">
+          </div>
+            
+        </div>
+    </form>
+    </div>
+   
+    <!--
+  <footer>
+      <p>
+          <a href="http://jigsaw.w3.org/css-validator/check/referer">
+              <img style="border:0;width:88px;height:31px"
+                  src="http://jigsaw.w3.org/css-validator/images/vcss"
+                  alt="CSS ist valide!">
+          </a>
+      </p>
+  </footer´ß09
+    -->
+  
+</body>
+</html>
