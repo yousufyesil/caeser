@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>readme.txt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="thb.png"/>
+    <style>
+        body {
+            margin: 20px;
+        }
+
+        h1, h2 {
+            margin-bottom: 20px;
+        }
+
+        .navigation ul {
+            padding: 10px;
+        }
+
+        .navbar {
+            margin-right: 20px;
+        }
+
+        p {
+            margin-top: 15px;
+            line-height: 1.6;
+        }
+
+        .team-image {
+            float: left;
+            margin-right: 20px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navigation">
+        <ul>
+         <li><a class="navbar" href="">Home</a></li>
+         <li><a class="navbar" href="#news">News</a></li>
+         <li><a class="navbar" href="#contact">Contact</a></li>
+         <li><a class="navbar" href="readme.html">About</a></li>
+       </ul>
+    </div>
+
+    <!-- Bild einfügen -->
+    <img class="team-image" src="https://s3.amazonaws.com/yesil-20237852/e4062d70-50f6-4465-b1b8-1b48a5c1fcb5.jpeg" alt="Team Bild">
+
+    <h1>Semesterprojekt - Sommersemester 2024 WcBs</h1>
+    <h2>TH Encryption</h2>
+    
+    <p>Teammitglieder:<br>
+    Yousuf Yesil<br>
+    </p>
+    
+    <p>Beschreibung:</p>
+    <p>
+    In diesem Projekt geht es darum die Caesar-Verschlüsselung zu implementieren. Dabei hat der Nutzer die Möglichkeit, einen beliebigen Text 
+    einzugeben sowie die Höhe des Shifts. Diese Eingabeparameter werden durch den Post-Operator an das CGI-Skript übergeben. Im CGI Skript wird dann der übergebene Text 
+    durch ein einfaches Python-Skript verschlüsselt ausgegeben.
+    </p>
+
+    <p>Eingabeparameter:</p>
+    <ul>
+        <li>Zu verschlüsselnder Text (String)</li>
+        <li>Shift (Integer)</li>
+    </ul>
+
+    <div>
+        <p>Quellenangabe:<br>
+        CSS:<br>
+        <a href="https://www.youtube.com/watch?v=BMphVl9suxA">https://www.youtube.com/watch?v=BMphVl9suxA</a><br>
+        Python: <a href="https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/">https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/</a>
+        </p>
+    </div>
+    
+    <footer>
+        <p>
+            <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:0;width:88px;height:31px"
+                    src="http://jigsaw.w3.org/css-validator/images/vcss"
+                    alt="CSS ist valide!" />
+            </a>
+        </p>
+    </footer>
+</body>
+</html>

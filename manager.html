@@ -18,34 +18,26 @@
    <ul>
     <li><a class="navbar" href="">Caeser</a></li>
     <li><a class="navbar" href="pwGenerator.html">Generator</a></li>
-    <li><a class="navbar" href="manager.html">Passwort Manager</a></li>
-    <li><a class="navbar" href="about.html">About</a></li>
+    <li><a class="navbar">Passwort Manager</a></li>
+    <li><a class="navbar" href="info.html">About</a></li>
 
   </ul>
 </div>
  <div class="main_body">
-    <form class="formfield" action="../cgi-bin/caeser.cgi" method="post">
+    <form class="formfield" action="../cgi-bin/manager.cgi" method="post">
         <div class="formfield">
           <br>
         
           <div class="inputBox">
-            <input type="text" id="text" name="text" required="required">
-            <span>Texteingabe</span>
+            <input type="text" id="password" name="password" required="required">
+            <span>Dein Passwort</span>
           </div>
           <br>
-          <div class="inputBox">
-            <input type="number" id="shift" name="shift" required="required">
-            <span>Shift</span>
-          </div>
-          <br>
-          <div class="blank">
-            <span>LEERZEICHEN IGNORIEREN?</span>
-            <input class="checkBox" type="checkbox" name="blank" value="1">
-           
-          </div>
+       
+    
           <br>
           <div class="submitBox">
-            <input class="submit" type="submit" value="Verschlüsselung starten">
+            <input class="submit" type="submit" value="Passwort sichern">
           </div>
             
         </div>
@@ -66,4 +58,3 @@
   
 </body>
 </html>
-
